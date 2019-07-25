@@ -9,13 +9,12 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd    
     http://www.springframework.org/schema/mvc
-    http://www.springframework.org/schema/mvc/spring-mvc.xsd    
-    http://www.springframework.org/schema/webflow-config
-    http://www.springframework.org/schema/webflow-config/spring-webflow-config.xsd        
-    ">
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd
+">
 
-	<context:component-scan base-package="com.burkit.onlineshopping"/>
+	<context:component-scan base-package="com.burkit.onlineshopping.controller"/>
 
+<!--	View Resolver is used to direct a logical name of page to original page, prefix will have the initial path and suffix will have .jsp or any other extension-->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		
