@@ -1,9 +1,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:mvc="http://www.springframework.org/schema/mvc"
-	xmlns:wf="http://www.springframework.org/schema/webflow-config"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
@@ -13,8 +12,10 @@
 ">
 
 	<context:component-scan base-package="com.burkit.onlineshopping.controller"/>
+	<context:component-scan base-package="com.burkit.shoppingbackend.daoimpl"/>
 
-<!--	View Resolver is used to direct a logical name of page to original page, prefix will have the initial path and suffix will have .jsp or any other extension-->
+
+	<!--	View Resolver is used to direct a logical name of page to original page, prefix will have the initial path and suffix will have .jsp or any other extension-->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		
