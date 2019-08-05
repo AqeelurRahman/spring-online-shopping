@@ -6,7 +6,7 @@
 <spring:url var="css" value="/resources/css"/>
 <spring:url var="js" value="/resources/js"/>
 <spring:url var="images" value="/resources/images"/>
-<c:set var="contextRoot" value="${pageContext.request.contextPath}" />
+<c:set var="contextRoot" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +21,7 @@
     <title>Online Shopping - ${title}</title>
     <script>
         window.menu = '${title}';
+        window.contextRoot = '${contextRoot}';
     </script>
 
     <!-- Bootstrap core CSS -->
@@ -28,6 +29,8 @@
 
     <%--    Bootstrap Applied Theme--%>
     <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+<%--    DataTable css Jquery--%>
+    <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="${css}/myapp.css" rel="stylesheet">
@@ -41,45 +44,50 @@
 
     <%@include file="./shared/navbar.jsp" %>
     <div class="content">
-    <!-- Page Content -->
-    <%--Loading the Home Content--%>
-    <c:if test="${userClickHome == true}">
-
-        <%@include file="home.jsp" %>
-        <!-- /.container -->
-    </c:if>
-
-    <c:if test="${userClickAbout == true}">
-
         <!-- Page Content -->
-        <%@include file="about.jsp" %>
-        <!-- /.container -->
-    </c:if>
+        <%--Loading the Home Content--%>
+        <c:if test="${userClickHome == true}">
 
-    <c:if test="${userClickContact == true}">
+            <%@include file="home.jsp" %>
+            <!-- /.container -->
+        </c:if>
 
-        <!-- Page Content -->
-        <%@include file="contact.jsp" %>
-        <!-- /.container -->
-    </c:if>
+        <c:if test="${userClickAbout == true}">
 
-    <c:if test="${userClickAllProducts == true or userClickCategoryProduct == true}">
+            <!-- Page Content -->
+            <%@include file="about.jsp" %>
+            <!-- /.container -->
+        </c:if>
 
-        <!-- Page Content -->
-        <%@include file="listProducts.jsp" %>
-        <!-- /.container -->
-    </c:if>
+        <c:if test="${userClickContact == true}">
+
+            <!-- Page Content -->
+            <%@include file="contact.jsp" %>
+            <!-- /.container -->
+        </c:if>
+
+        <c:if test="${userClickAllProducts == true or userClickCategoryProduct == true}">
+
+            <!-- Page Content -->
+            <%@include file="listProducts.jsp" %>
+            <!-- /.container -->
+        </c:if>
 
 
-</div>
+    </div>
 
-<!-- Footer -->
-<%@include file="./shared/footer.jsp" %>
+    <!-- Footer -->
+    <%@include file="./shared/footer.jsp" %>
 
-<!-- Bootstrap core JavaScript -->
-<script src="${js}/jquery.min.js"></script>
-<script src="${js}/app.js"></script>
-<script src="${js}/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="${js}/jquery.min.js"></script>
+    <script src="${js}/jquery.dataTables.js"></script>
+    <script src="${js}/bootstrap.bundle.min.js"></script>
+
+    <script src="${js}/dataTables.bootstrap.js"></script>
+
+    <script src="${js}/app.js"></script>
+
 </div>
 </body>
 

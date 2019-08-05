@@ -43,16 +43,16 @@ public class CategoryTestCase {
 //	}
 
 
-@Test
-	public void testGetCategory() {
-
-		category = categoryDao.get(1);
-
-
-		assertEquals("Successfully fetched a single category from the table!","Laptop",category.getName());
-
-
-	}
+//@Test
+//	public void testGetCategory() {
+//
+//		category = categoryDao.get(1);
+//
+//
+//		assertEquals("Successfully fetched a single category from the table!","Laptop",category.getName());
+//
+//
+//	}
 
 
 /*	@Test
@@ -88,17 +88,17 @@ public class CategoryTestCase {
 
 */
 
-//    @Test
-//    public void testCRUDCategory() {
-//
-//        // add operation
-//        category = new Category();
-//
-//        category.setName("Laptop");
-//        category.setDescription("This is some description for laptop!");
-//        category.setImageURL("CAT_1.png");
-//
-//        assertEquals("Successfully added a category inside the table!",true,categoryDAO.add(category));
+    @Test
+    public void testCRUDCategory() {
+
+        // add operation
+        category = new Category();
+
+        category.setName("Desktop");
+        category.setDescription("This is some description for desktop!");
+        category.setImageURL("CAT_2.png");
+
+        assertEquals("Successfully added a category inside the table!", true, categoryDao.add(category));
 //
 //
 //        category = new Category();
@@ -128,4 +128,5 @@ public class CategoryTestCase {
 //
 //    }
 
+    }
 }
