@@ -25,3 +25,7 @@ body {
   bottom: 0;
   width: -webkit-fill-available;
 }
+.dataTableImg{
+  width: 100px;
+  height: 100px;
+}
