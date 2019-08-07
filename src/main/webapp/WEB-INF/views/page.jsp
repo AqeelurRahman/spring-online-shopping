@@ -73,6 +73,14 @@
             <!-- /.container -->
         </c:if>
 
+<%--        When User click single product page--%>
+        <c:if test="${userClickShowProduct==true}">
+
+            <!-- Page Content -->
+            <%@include file="singleProduct.jsp" %>
+            <!-- /.container -->
+        </c:if>
+
 
     </div>
 

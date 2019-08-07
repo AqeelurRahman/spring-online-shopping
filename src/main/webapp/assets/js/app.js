@@ -18,16 +18,6 @@ $(function () {
 
 //    code for jquery data table
 //    create a data set
-    var products = [
-        ['1', 'ABC'],
-            ['2', 'ABC'],
-            ['3', 'AsdfBC'],
-            ['4', 'ABsdfC'],
-            ['5', 'ABasdC'],
-            ['6', 'ABasdfasdfC']
-
-
-    ];
 
     var $table = $('#productlistTable');
 //    execute the code where this table is present
@@ -77,8 +67,8 @@ $(function () {
                     bSortable:false,
                     mRender:function (data, type, row) {
                         var str= '';
-                        str+='<a href="'+window.contextRoot+'/show/'+data+'/product" class="btn btn-sm btn-primary"><span class="glyphicon-eye-open"/>ViewProduct</a>';
-                        str+='<a href="'+window.contextRoot+'/cart/add/'+data+'/product"class="btn btn-sm btn-success"><span class="glyphicon-shopping-cart"/>Add to Cart</a>';
+                        str+='<a href="'+window.contextRoot+'/show/'+data+'/product" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-eye-open"/>ViewProduct</a>';
+                        str+='<a href="'+window.contextRoot+'/cart/add/'+data+'/product"class="btn btn-sm btn-success"><span class="glyphicon glyphicon-shopping-cart"/>Add to Cart</a>';
                         return str;
                     }
 
