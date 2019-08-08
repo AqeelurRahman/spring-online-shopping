@@ -67,7 +67,7 @@ public class ManagementController {
 
         ModelAndView mv = new ModelAndView("page");
         mv.addObject("title", "Product Management");
-        mv.addObject("userClickManageProduct", true);
+        mv.addObject("userClickManageProducts", true);
 
         // Product nProduct = new Product();
         mv.addObject("product", productDAO.get(id));
@@ -120,7 +120,9 @@ public class ManagementController {
     @RequestMapping(value = "/product/{id}/activation", method = RequestMethod.GET)
     @ResponseBody
     public String managePostProductActivation(@PathVariable int id) {
+//       Fetching product from database
         Product product = productDAO.get(id);
+
         boolean isActive = product.isActive();
         product.setActive(!isActive);
         productDAO.update(product);

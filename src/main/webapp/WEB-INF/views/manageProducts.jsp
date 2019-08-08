@@ -129,7 +129,7 @@
 
         <%--    Products for Admin--%>
 
-        <table id="productsTable" class="table table-condensed table-bordered">
+        <table id="adminProductsTable" class="table table-condensed table-bordered">
             <thead>
             <tr>
                 <th>Id</th>

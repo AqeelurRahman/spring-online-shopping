@@ -100,6 +100,7 @@
     <script src="${js}/bootstrap.bundle.min.js"></script>
 
     <script src="${js}/dataTables.bootstrap.js"></script>
+    <script src="${js}/bootbox.min.js"></script>
 
     <script src="${js}/app.js"></script>
 
