@@ -20,9 +20,12 @@
                 <li class="nav-item" id="contact">
                     <a class="nav-link" href="${contextRoot}/contact">Contact</a>
                 </li>
+                <li class="nav-item" id="manageProducts">
+                    <a class="nav-link" href="${contextRoot}/manage/products">Manage Products</a>
+                </li>
             </ul>
 
-<%--    <ul class="nav navbar-nav">--%>
+            <%--    <ul class="nav navbar-nav">--%>
 <%--        <li class="${UserClickHome?'active':''}"><a href="${contextRoot}./home">Home</a></li>--%>
 <%--        <li class="${UserClickAbout?'active':''}"><a href="${contextRoot}./about">About</a></li>--%>
 <%--        <li><a href="${contextRoot}/listProducts">View Products</a></li>--%>

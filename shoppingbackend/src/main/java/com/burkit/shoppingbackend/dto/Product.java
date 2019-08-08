@@ -34,7 +34,7 @@ public class Product implements Serializable {
     @NotBlank(message = "Please enter the description!")
     private String description;
     @Column(name = "unit_price")
-    @Min(value = 1, message="Please select at least one value!")
+    @Min(value = 1, message="The Price Can not be lest than 1!")
     private double unitPrice;
     private int quantity;
     @Column(name = "is_active")
@@ -47,7 +47,6 @@ public class Product implements Serializable {
     private int supplierId;
     private int purchases;
     private int views;
-
 
     @Transient
     private MultipartFile file;

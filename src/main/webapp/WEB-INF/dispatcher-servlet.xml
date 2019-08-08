@@ -1,8 +1,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
-	   xmlns:context="http://www.springframework.org/schema/context"
-	   xmlns:mvc="http://www.springframework.org/schema/mvc"
-	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	   xsi:schemaLocation="
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
@@ -11,31 +11,28 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd
 ">
 
-	<context:component-scan base-package="com.burkit.onlineshopping.*"/>
-	<context:component-scan base-package="com.burkit.shoppingbackend.*"/>
+    <context:component-scan base-package="com.burkit.onlineshopping.*"/>
+    <context:component-scan base-package="com.burkit.shoppingbackend.*"/>
 
 
+    <!--	View Resolver is used to direct a logical name of page to original page, prefix will have the initial path and suffix will have .jsp or any other extension-->
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
-	<!--	View Resolver is used to direct a logical name of page to original page, prefix will have the initial path and suffix will have .jsp or any other extension-->
-	<bean id="viewResolver"
-		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		
-		<property name="prefix" value="/WEB-INF/views/" />
-		<property name="suffix" value=".jsp" />
-		
-	</bean>
-	
-	<bean id="multipartResolver"
-		class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>
-	
-	
-	<!-- Loading static resources -->
-	<mvc:annotation-driven />
-	
-	<mvc:resources location="/assets/" mapping="/resources/**" />
-	
-	
-	
-	<!-- Webflow configuration -->
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+
+    </bean>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
+    </bean>
+
+
+    <!-- Loading static resources -->
+    <mvc:annotation-driven/>
+
+    <mvc:resources location="/assets/" mapping="/resources/**"/>
+
+
+    <!-- Webflow configuration -->
 
 </beans>

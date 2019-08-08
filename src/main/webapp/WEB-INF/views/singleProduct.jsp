@@ -26,10 +26,29 @@
             <p>${product.description}</p>
 
             <h4>Price: <strong>${product.unitPrice}</strong></h4>
-            <h6>Qty. Available : ${product.quantity }</h6>
-            <a href="${contextRoot}/cart/add/${product.id}/product" class="btn btn-success">
-                <span class="glyphicon glyphicon-shopping-cart"></span>
-            </a>
+
+            <%--            Condition When no product quantity is available--%>
+            <c:choose>
+                <c:when test="${product.quantity <  1 }">
+                    <h6>Qty. Available : <span color="red"> out Of Stock!</span></h6>
+                </c:when>
+                <c:otherwise>
+                    <h6>Qty. Available : ${product.quantity }</h6>
+                </c:otherwise>
+            </c:choose>
+
+
+            <c:choose>
+                <c:when test="${product.quantity <  1 }">
+                    <h6 style="color: red">Product Out Of Stock! <strike><span class="glyphicon glyphicon-shopping-cart" ></span></strike></h6>
+                </c:when>
+                <c:otherwise>
+                    <a href="${contextRoot}/cart/add/${product.id}/product" class="btn btn-success">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                    </a>
+                </c:otherwise>
+            </c:choose>
+
             <a href="${contextRoot}/show/all/products" class="btn btn-primary">Back</a>
 
         </div>

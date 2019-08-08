@@ -81,6 +81,13 @@
             <!-- /.container -->
         </c:if>
 
+<%--        When user clicks Manage Products--%>
+        <c:if test="${userClickManageProducts==true}">
+
+            <!-- Page Content -->
+            <%@include file="manageProducts.jsp" %>
+        </c:if>
+
 
     </div>
 
