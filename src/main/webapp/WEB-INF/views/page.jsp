@@ -16,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="_csrf" content="${_csrf.token}">
+    <meta name="_csrf_header" content="${_csrf.headerName}">
 
 
     <title>Online Shopping - ${title}</title>
@@ -93,14 +95,23 @@
 
     <!-- Footer -->
     <%@include file="./shared/footer.jsp" %>
+    <!-- jQuery -->
+    <script src="${js}/jquery.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="${js}/jquery.min.js"></script>
+    <script src="${js}/jquery.validate.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="${js}/bootstrap.min.js"></script>
+
+    <!-- DataTable Plugin -->
     <script src="${js}/jquery.dataTables.js"></script>
-    <script src="${js}/bootstrap.bundle.min.js"></script>
 
+    <!-- DataTable Bootstrap Script -->
     <script src="${js}/dataTables.bootstrap.js"></script>
+
+    <!-- DataTable Bootstrap Script -->
     <script src="${js}/bootbox.min.js"></script>
+
 
     <script src="${js}/app.js"></script>
 

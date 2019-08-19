@@ -10,13 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90f6607b-8234-4f3f-a3dc-64d05f3095ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/CartLineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/CartLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/GlobalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/handler/RegisterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/RegisterModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-billing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/JsonDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/JsonDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-readable-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-readable-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,104 +74,111 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="800">
-                  <caret line="102" column="48" lean-forward="true" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="482">
-                  <caret line="214" column="48" lean-forward="true" selection-start-line="214" selection-start-column="48" selection-end-line="214" selection-end-column="48" />
-                  <folding>
-                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/JsonDataController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="20" column="30" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="40" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/util/FileUploadUtility.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/validator/ProductValidator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="458">
-                  <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="22" column="92" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="92" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2">
-                  <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-832">
+              <caret line="120" column="26" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/UserModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/GlobalController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,6 +202,11 @@
       <find>POST</find>
       <find>Binding</find>
       <find>manage/product</find>
+      <find>webflow</find>
+      <find>user</find>
+      <find>login</find>
+      <find>window.cont</find>
+      <find>full</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,24 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shoppingbackend/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/App.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-        <option value="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/shoppingbackend/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/shoppingbackend/daoimpl/CategoryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Category.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/CategoryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/config/HibernateConfig.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/test/java/com/burkit/shoppingbackend/CategoryTestCase.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/databaseQueries.sql" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/Product.java" />
         <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/ProductDaoImpl.java" />
         <option value="$PROJECT_DIR$/shoppingbackend/src/test/java/com/burkit/shoppingbackend/ProductTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp" />
@@ -209,25 +232,49 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/exception/ProductNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/exception/GlobalDefaultExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
         <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/validator/ProductValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/util/FileUploadUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController2.java" />
         <option value="$PROJECT_DIR$/shoppingbackend/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/views/manageProducts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/JsonDataController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-readable-theme.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/app.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Cart.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/User.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/CartDao.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/CartLine.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/OrderDetail.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/OrderItem.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/CartLineDao.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-billing.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/RegisterModel.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/handler/RegisterHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/UserModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/GlobalController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/views/login.jsp" />
       </list>
     </option>
   </component>
@@ -274,9 +321,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3263" />
-    <option name="width" value="584" />
-    <option name="height" value="1057" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,6 +334,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,15 +368,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-online-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingbackend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingbackend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -378,7 +419,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="onlineshopping" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -387,16 +428,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="onlineshopping" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-online-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="onlineshopping" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -404,32 +436,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-online-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-online-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-online-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -447,16 +453,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-online-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-online-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -467,8 +463,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,7 +478,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/shoppingbackend/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -504,15 +498,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\webapp\assets\js" />
-      <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\java\com\burkit\onlineshopping" />
+      <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\java\com\burkit\onlineshopping\controller" />
+      <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\java\com\burkit\onlineshopping\model" />
       <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\SpringProjects\project2\spring-online-shopping\shoppingbackend\src\main\resources" />
-      <recent name="D:\SpringProjects\project2\spring-online-shopping\out\artifacts\onlinestore\assets\js" />
+      <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\webapp\WEB-INF" />
+      <recent name="D:\SpringProjects\project2\spring-online-shopping\src\main\java\com\burkit\onlineshopping\handler" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.burkit.onlineshopping.controller" />
       <recent name="com.burkit.shoppingbackend.daoimpl" />
+      <recent name="com.burkit.shoppingbackend.dao" />
+      <recent name="com.burkit.onlineshopping.controller" />
       <recent name="com.burkit.shoppingbackend.config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -617,7 +612,6 @@
     </configuration>
     <configuration name="Tomcat 9.0.193" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.193" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/onlinestore/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="onlinestore">
@@ -732,7 +726,10 @@
       <workItem from="1565172659048" duration="19742000" />
       <workItem from="1565244274555" duration="238000" />
       <workItem from="1565247467600" duration="4371000" />
-      <workItem from="1565255386141" duration="13231000" />
+      <workItem from="1565255386141" duration="19076000" />
+      <workItem from="1565343034926" duration="3448000" />
+      <workItem from="1565856022101" duration="665000" />
+      <workItem from="1565932494955" duration="34036000" />
     </task>
     <task id="LOCAL-00001" summary="DirectoryStructure Completed">
       <created>1563954373843</created>
@@ -797,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565260368885</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="video 42 completed!!! some issue with the switch button..">
+      <created>1565282405391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565282405391</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -833,13 +837,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124734000" />
+    <option name="totallyTimeSpent" value="168728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38699362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -849,7 +852,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.23365487" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.34190783" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.6547619" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -902,272 +905,10 @@
     <MESSAGE value="video 28 completed...." />
     <MESSAGE value="video 31 completed!!!" />
     <MESSAGE value="video 38 completed!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="video 38 completed!!!" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp</url>
-          <line>100</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="video 42 completed!!! some issue with the switch button.." />
+    <option name="LAST_COMMIT_MESSAGE" value="video 42 completed!!! some issue with the switch button.." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/Product.java" />
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/resources/databaseQueries.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="140" column="154" lean-forward="true" selection-start-line="131" selection-end-line="140" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/test/java/com/burkit/shoppingbackend/ProductTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#12#0" expanded="true" />
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#0#64#0" expanded="true" />
-            <element signature="e#0#47#0" expanded="true" />
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/assets/js/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/dataTables.bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/assets/css/dataTables.bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/assets/js/dataTables.bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/config/HibernateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listProducts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/logback.xml" />
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="108" selection-start-line="108" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17905" column="12" selection-start-line="17905" selection-start-column="12" selection-end-line="17905" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/exception/GlobalDefaultExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/exception/ProductNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="116" selection-start-line="25" selection-start-column="116" selection-end-line="25" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0-sources.jar!/javax/servlet/ServletContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="556" column="18" selection-start-line="556" selection-start-column="18" selection-end-line="556" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0-sources.jar!/javax/servlet/http/HttpSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="172" column="26" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="435" selection-start-line="435" selection-end-line="435" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController2.java" />
-    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/lib/com/burkit/onlineshopping/controller/ManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/myapp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/views/manageProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1207,62 +948,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/JsonDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="214" column="48" lean-forward="true" selection-start-line="214" selection-start-column="48" selection-end-line="214" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="102" column="48" lean-forward="true" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/validator/ProductValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1276,6 +965,354 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/JsonDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/ManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="147" column="30" lean-forward="true" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4712#4713#0" expanded="true" />
+            <element signature="e#4749#4750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/CartDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/CartLine.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="104" selection-start-line="104" selection-end-line="104" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+            <element signature="e#2892#2893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dao/CartLineDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/daoimpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="91" selection-start-line="91" selection-end-line="92" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1212">
+          <caret line="108" selection-start-line="108" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flow-footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-billing.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/RegisterModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="101" column="4" lean-forward="true" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/handler/RegisterHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/config/HibernateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="111" column="79" selection-start-line="111" selection-start-column="74" selection-end-line="111" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="120" column="26" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.2.RELEASE/spring-security-core-4.2.2.RELEASE-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+          <folding>
+            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/GlobalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingbackend/src/main/java/com/burkit/shoppingbackend/dto/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/singleProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/burkit/onlineshopping/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/onlinestore/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
         </state>
       </provider>
     </entry>

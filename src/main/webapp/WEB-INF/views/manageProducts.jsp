@@ -90,6 +90,15 @@
                             <label for="categoryId" class="control-label ">Select
                                 Category: </label>
                             <div class="col-md-8">
+                                <c:if test="${product.id == 0}">
+                                    <div class="text-right">
+                                        </br>
+                                        <button type="button" data-toggle="modal" data-target="#myCategoryModal"
+                                                class="btn btn-xs btn-danger">Add Category
+
+                                        </button>
+                                    </div>
+                                </c:if>
                                 <sf:select path="categoryId" id="categoryId" class="form-control" items="${categories}"
                                            itemLabel="name" itemValue="id"/>
                             </div>
@@ -157,5 +166,81 @@
             </tfoot>
         </table>
     </div>
+
+
+    <div class="modal" id="myCategoryModal" role="dialog" tabindex="-1">
+        <div role="document" class="modal-dialog">
+            <div class="modal-content">
+                <%--            Modal Header--%>
+                <div class="modal-header">
+                    <h4 class="modal-title">Add New Category</h4>
+                    <button type="button" class="close" data-dismiss="modal" >
+
+                    </button>
+                    <hr>
+
+
+                </div>
+                <div class="modal-body">
+                    <%--                Category Form--%>
+                    <%--@elvariable id="category" type="com.burkit.shoppingbackend.dto.Category"--%>
+<%--                    <sf:form cssClass="form-horizontal" id="categoryForm" modelAttribute="category" action="${contextRoot}/manage/category" method="post">--%>
+<%--                        <div class="from-group">--%>
+<%--                            <label for="name" class="control-label col-md-4">Category Name</label>--%>
+<%--                            <div class="col-md-8 validate" >--%>
+<%--                                <sf:input path="name" cssClass="form-control"/>--%>
+
+<%--                            </div>--%>
+<%--                        </div>--%>
+
+<%--                        <div class="from-group">--%>
+<%--                            <label for="description" class="control-label col-md-4">Category Description</label>--%>
+<%--                            <div class="col-md-8 validate">--%>
+<%--                                <sf:textarea rows="5" path="description" cssClass="form-control"/>--%>
+
+<%--                            </div>--%>
+<%--                        </div>--%>
+
+<%--                        <div class="from-group">--%>
+<%--                            <label for="name" class="control-label col-md-4"></label>--%>
+<%--                            <div class="col-md-offset-4 col-md-8">--%>
+<%--                                <sf:button type="submit" cssClass="btn btn-dark form-control">Add Category</sf:button>--%>
+
+<%--                            </div>--%>
+<%--                        </div>--%>
+
+<%--                    </sf:form>--%>
+
+
+                        <sf:form id="categoryForm" class="form-horizontal" modelAttribute="category" action="${contextRoot}/manage/category" method="POST">
+
+                            <div class="form-group">
+                                <label class="control-label col-md-4">Name</label>
+                                <div class="col-md-8 validate">
+                                    <sf:input type="text" path="name" class="form-control"
+                                              placeholder="Category Name" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-4">Description</label>
+                                <div class="col-md-8 validate">
+                                    <sf:textarea path="description" class="form-control"
+                                                 placeholder="Enter category description here!" />
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="col-md-offset-4 col-md-4">
+                                    <input type="submit" name="submit" value="Save" class="btn btn-primary"/>
+                                </div>
+                            </div>
+                        </sf:form>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
-</div>
+

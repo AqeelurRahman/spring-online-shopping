@@ -8,10 +8,18 @@ import com.burkit.shoppingbackend.dto.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.net.Authenticator;
 
 @Controller
 public class  PageController {
@@ -41,6 +49,19 @@ public class  PageController {
         ModelAndView mv = new ModelAndView("page");
         mv.addObject("title", "About Us");
         mv.addObject("userClickAbout", true);
+        return mv;
+    }
+    @RequestMapping(value = {"/login"})
+    public ModelAndView login(@RequestParam (name = "error", required = false) String error
+    ,                         @RequestParam (name = "logout", required = false) String logout){
+        ModelAndView mv = new ModelAndView("login");
+        if (error!=null){
+            mv.addObject("message","Invalid Username And Password");
+        }
+        if (logout!=null){
+            mv.addObject("logout","User has successfully logged out!");
+        }
+        mv.addObject("title", "Login");
         return mv;
     }
 
@@ -97,5 +118,27 @@ public class  PageController {
         return mv;
     }
 
+//    access denied page
+@RequestMapping(value = {"/access-denied"})
+public ModelAndView accessDenied() {
+    ModelAndView mv = new ModelAndView("error");
+    mv.addObject("title", "403 Access Denied");
+    mv.addObject("errorTitle", "403 Access Denied");
+    mv.addObject("errorDescription", "Gotcha! You are not allowed Here");
+    return mv;
+}
 
+//Logout
+    @RequestMapping(value = "/perform-logout")
+
+    public String logout(HttpServletRequest request, HttpServletResponse response){
+
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if (authentication!=null){
+            new SecurityContextLogoutHandler().logout(request,response,authentication);
+
+        }
+
+        return "redirect:/login?logout";
+    }
 }

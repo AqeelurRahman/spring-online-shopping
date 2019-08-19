@@ -129,6 +129,7 @@ public class ManagementController {
         return (isActive) ? "Product Dectivated Successfully!" : "Product Activated Successfully";
     }
 
+//to handle category modal-form submission
 
     @RequestMapping(value = "/category", method = RequestMethod.POST)
     public String managePostCategory(@ModelAttribute("category") Category mCategory, HttpServletRequest request) {
