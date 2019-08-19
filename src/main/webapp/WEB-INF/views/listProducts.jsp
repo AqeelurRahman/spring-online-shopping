@@ -46,6 +46,8 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="container" style="width: 58%;">
+                        <div class="container-fluid">
+                            <div class="table-responsive">
                         <table class="table table-striped table-hover table-condensed" id="productlistTable"
                                style="width: 58% !important;">
 
@@ -73,6 +75,8 @@
                             </tr>
                             </tfoot>
                         </table>
+                        </div>
+                        </div>
                     </div>
 
                 </div>

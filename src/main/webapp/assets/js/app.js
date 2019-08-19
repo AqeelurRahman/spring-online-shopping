@@ -12,6 +12,9 @@ $(function () {
         case 'Manage Products' :
             $('#manageProducts').addClass('active');
             break;
+        case 'Shopping Cart':
+            $('#userModel').addClass('active');
+            break;
         default:
             $('#home').addClass('active');
             $('#a_' + menu).addClass('active');
@@ -99,12 +102,7 @@ $(function () {
 
     }
 
-    var $alert = $('.alert');
-    if ($alert.length) {
-        setTimeout(function () {
-            $alert.fadeOut('slow')
-        }, 10000)
-    }
+
 
 //    ----------------Switch Button ----------------------
     $('.switch input[type="checkbox"]').on('change', function () {
@@ -345,7 +343,7 @@ $(function () {
 
     }
 //          validation for Login Page! ------------------------------------------
-var $loginForm = $('$loginForm');
+var $loginForm = $('#loginForm');
     if ($loginForm.length){
         $categoryForm.validator({
             rules:{
@@ -371,18 +369,51 @@ var $loginForm = $('$loginForm');
 //          validation for Login Page! ------------------------------------------
 
 //Tackling CSRF token here
-var token = $('meta[name="_csrf"]'.attr('content'));
-    var header = $('meta[name="_csrf_header"]'.attr('content'));
-if (token.length>0 && hader.length>0){
-    //set the token header for the header request
-    $(document).ajaxSend(function (e, xhr, options) {
-        xhr.setRequestHeader(header,token);
+    var token = $('meta[name="_csrf"]').attr('content');
+    var header = $('meta[name="_csrf_header"]').attr('content');
+
+    if((token!=undefined && header !=undefined) && (token.length > 0 && header.length > 0)) {
+        // set the token header for the ajax request
+        $(document).ajaxSend(function(e, xhr, options) {
+            xhr.setRequestHeader(header,token);
+        });
+    }
+
+
+
+    /*------*/
+    /* handle refresh cart*/
+    $('button[name="refreshCart"]').click(function(){
+        var cartLineId = $(this).attr('value');
+        var countField = $('#count_' + cartLineId);
+        var originalCount = countField.attr('value');
+        // do the checking only the count has changed
+        if(countField.val() !== originalCount) {
+            // check if the quantity is within the specified range
+            if(countField.val() < 1 || countField.val() > 3) {
+                // set the field back to the original field
+                countField.val(originalCount);
+                bootbox.alert({
+                    size: 'medium',
+                    title: 'Error',
+                    message: 'Product Count should be minimum 1 and maximum 3!'
+                });
+            }
+            else {
+                // use the window.location.href property to send the request to the server
+                var updateUrl = window.contextRoot + '/cart/' + cartLineId + '/update?count=' + countField.val();
+                window.location.href = updateUrl;
+            }
+        }
     });
-}
 
-
-
-
+    $alert = $('.alert');
+    if($alert.length) {
+        setTimeout(function() {
+                $alert.fadeOut('slow');
+            }, 3000
+        );
+    }
 
 });
 

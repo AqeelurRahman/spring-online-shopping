@@ -56,11 +56,17 @@
 
         <c:if test="${userClickAbout == true}">
 
+        <!-- Page Content -->
+        <%@include file="about.jsp" %>
+        <!-- /.container -->
+    </c:if>
+                    <%--        When User Click Cart...........--%>
+        <c:if test="${userClickShowCart == true}">
+
             <!-- Page Content -->
-            <%@include file="about.jsp" %>
+            <%@include file="cart.jsp" %>
             <!-- /.container -->
         </c:if>
-
         <c:if test="${userClickContact == true}">
 
             <!-- Page Content -->

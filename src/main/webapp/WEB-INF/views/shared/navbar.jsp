@@ -45,10 +45,10 @@
                         ${userModel.fullName}
                         <span class="caret"></span>
                     </a>
-                    <ul class="dropdown-menu">
+
                        <security:authorize access="hasAnyAuthority('USER')">
                         <li>
-                            <a href="${contextRoot}/cart">
+                            <a href="${contextRoot}/cart/show">
                                 <span class="glyphicon glyphicon-shopping-cart"></span>
                                 <span class="badge">${userModel.cart.cartLines}</span>
                             ${userModel.cart.grandTotal}
@@ -57,7 +57,7 @@
                         <li class="divider" role="separator"></li>
                        </security:authorize>
 
-                    </ul>
+
 
                 </li>
                     <li>

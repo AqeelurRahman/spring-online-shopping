@@ -6,7 +6,6 @@ import java.util.List;
 
 public interface CartLineDao
 {
-
     public List<CartLine> list(int cartId);
     public CartLine get(int id);
     public boolean add(CartLine cartLine);
@@ -24,5 +23,6 @@ public interface CartLineDao
 
     // adding order details
     boolean addOrderDetail(OrderDetail orderDetail);
+
 
 }
